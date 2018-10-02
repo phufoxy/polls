@@ -6,7 +6,12 @@ def index(request):
     questions1 = Question.objects.order_by('-id')
     # dddddddddddddddddddddddddddddd
     # date
+<<<<<<< HEAD
     #sgjkjwrhnjghrfnjllsadsadsdsagitfnfk
+=======
+    #sgjkjwrhnjghrfnjllfnfk
+    #djkfhkd
+>>>>>>> hni
     context1 = {
         'name':name1,
         'questions':questions1
