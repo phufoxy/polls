@@ -6,7 +6,7 @@ def index(request):
     questions1 = Question.objects.order_by('-id')
     # dddddddddddddddddddddddddddddd
     # date
-    #sgjkjwrhnjghrfnjllsadsadsdsagishfhgdkbfjhdjfvtfnfk
+    #sgjkjwrhnjghrfnjllsadsadsdsagishfhgdkbfjhdjfvtfnfkdsdf
     context1 = {
         'name':name1,
         'questions':questions1
