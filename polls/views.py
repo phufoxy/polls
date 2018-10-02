@@ -15,10 +15,10 @@ def index(request):
     return render(request,'index.html',context1)
 
 def index_details(request,id):
-    questions = Question.objects.get(pk=id)
+    questions2 = Question.objects.get(pk=id)
 
     context ={
-        'question':questions
+        'question':questions2
     }
     return render(request,'edit.html',context)
 
