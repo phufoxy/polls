@@ -2,15 +2,15 @@ from django.shortcuts import render,HttpResponse,redirect
 from .models import Choise, Question
 # Create your views here.
 def index(request):
-    name='abc'
-    questions = Question.objects.order_by('-id')
+    name1='abc'
+    questions1 = Question.objects.order_by('-id')
     # hni
     # date
-    context = {
-        'name':name,
-        'questions':questions
+    context1 = {
+        'name':name1,
+        'questions':questions1
     }
-    return render(request,'index.html',context)
+    return render(request,'index.html',context1)
 
 def index_details(request,id):
     questions = Question.objects.get(pk=id)
