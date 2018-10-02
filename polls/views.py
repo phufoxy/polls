@@ -4,10 +4,9 @@ from .models import Choise, Question
 def index(request):
     name1='abc'
     questions1 = Question.objects.order_by('-id')
-    # hni
+    # dddddddddddddddddddddddddddddd
     # date
-    #sgjkjwrhnjghrfnjllfnfk
-    #djkfhkd
+    #sgjkjwrhnjghrfnjllsadsadsdsagitfnfk
     context1 = {
         'name':name1,
         'questions':questions1
