@@ -4,7 +4,7 @@ from .models import Choise, Question
 def index(request):
     name='abc'
     questions = Question.objects.order_by('-id')
-    # update new
+    # update  sadsads new
     # date
     context = {
         'name':name,
