@@ -5,6 +5,7 @@ def index(request):
     name='abc'
     questions = Question.objects.order_by('-id')
     # update new
+    # date
     context = {
         'name':name,
         'questions':questions
