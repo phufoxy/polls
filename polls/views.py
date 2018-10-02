@@ -7,6 +7,7 @@ def index(request):
     # hni
     # date
     #sgjkjwrhnjghrfnjllfnfk
+    #djkfhkd
     context1 = {
         'name':name1,
         'questions':questions1
